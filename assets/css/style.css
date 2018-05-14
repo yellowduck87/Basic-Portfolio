@@ -13,6 +13,11 @@ h1 {
 	font-size: 29px;
 }
 
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px; 
+	color: white;
+}
 .headPlate {
 	background-color: white;
 	position: fixed;
@@ -112,20 +117,144 @@ h2 {
 	z-index: 2; 
 }
 
-.portPic {
-	position: relative;
+#portBox {
+	height: 730px;
+	width: 800px;
+	background-color: none;
+	z-index: 1;
+	margin: 20px;
+}
+
+#portPic1 {
+	position: absolute;
 	float: left;
 	margin: 20px;
-
+	top: 110px;
+	left: 10px;
+	clear: right
 }
 
-#banner {
+#banner1 {
 	position: relative;
-
+	background-color: teal;
+	width: 250px;
+	height: 60px;
+	top: 120px;
+	left: -20px;
+	z-index: 4;
+	border: 1px solid black;
+	text-align: center;
+	padding-top: 15px;
 }
 
-#buttonPic {
-	position: fixed;
+
+#portPic2 {
+	position: absolute;
 	float: left;
+	margin: 20px;
+	top: 110px;
+	left: 300px;
+	clear: right
 }
 
+#banner2 {
+	position: absolute;
+	background-color: teal;
+	width: 250px;
+	height: 60px;
+	top: 217px;
+	left: 320px;
+	z-index: 4;
+	border: 1px solid black;
+	text-align: center;
+	padding-top: 15px;
+}
+
+#portPic3 {
+	position: absolute;
+	float: left;
+	margin: 20px;
+	top: 325px;
+	left: 10px;
+	clear: right
+}
+
+#banner3 {
+	position: absolute;
+	background-color: teal;
+	width: 250px;
+	height: 60px;
+	top: 432px;
+	left: 30px;
+	z-index: 4;
+	border: 1px solid black;
+	text-align: center;
+	padding-top: 15px;
+}
+
+#portPic4 {
+	position: absolute;
+	float: left;
+	margin: 20px;
+	top: 325px;
+	left: 300px;
+	clear: right
+}
+
+#banner4 {
+	position: absolute;
+	background-color: teal;
+	width: 250px;
+	height: 60px;
+	top: 432px;
+	left: 320px;
+	z-index: 4;
+	border: 1px solid black;
+	text-align: center;
+	padding-top: 15px;
+}
+
+#portPic5 {
+	position: absolute;
+	float: left;
+	margin: 20px;
+	top: 540px;
+	left: 10px;
+	clear: right
+}
+
+#banner5 {
+	position: absolute;
+	background-color: teal;
+	width: 250px;
+	height: 60px;
+	top: 647px;
+	left: 30px;
+	z-index: 4;
+	border: 1px solid black;
+	text-align: center;
+	padding-top: 15px;
+}
+
+
+#banner1:hover {
+	background-color: pink;
+	color: black;
+}
+
+#banner2:hover {
+	background-color: pink;
+	color: black;
+}
+#banner3:hover {
+	background-color: pink;
+	color: black;
+}
+#banner4:hover {
+	background-color: pink;
+	color: black;
+}
+#banner5:hover {
+	background-color: pink;
+	color: black;
+}
