@@ -5,7 +5,6 @@
 body {
 	background-image: url("symphony.png");
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #888;
 }
 
 h1 {
@@ -13,13 +12,48 @@ h1 {
 	font-size: 29px;
 }
 
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 29px;
+	color: #4aaaa5;	
+	padding-bottom: 20px;
+}
+
 h3 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 20px; 
-	color: white;
+	color:#ffffff;
 }
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	padding: 15px 0px 15px 0px;
+	line-height: normal;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	margin-top: 20px;
+	padding: 5px;
+	position: relative;
+	color: #cccccc;
+	left: 65%;
+
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #cccccc;
+}
+
+nav ul li a:visited {
+	color: #b6d760;
+}
+
 .headPlate {
-	background-color: white;
+	background-color: #ffffff;
 	position: fixed;
 	width: 100%;
 	height: 80px;
@@ -33,62 +67,43 @@ h3 {
 }
 
 #namePlate {
-	background-color: teal;
-	color: white;
-	width: 275px;
-	padding: 3px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	width: 240px;
+	padding: 24.5px;
 	float: left;
 	position: absolute;
-	left: 20.2%;
+	left: 20%;
 	text-align: center;
 	z-index: 4;
 }
 
-ul {
-	list-style: none;
-	margin-top: 15px;
-	padding: 0;
-	width: 60px;
-	float: right;
-	position: absolute;
-	overflow: auto;
-	right: 22%;
-	z-index: 3;
-}
-
-li {
-	display: inline;
 }
 
 .wrapper {
-	width: 60%px;
+	max-width: 1500px;
 	padding: 20px;
 	margin: 0 auto 0 auto;
 }
 
 #about {
 	width: 60%;
-	height: 75%;
-	padding: 15px 30px 30px 30px;
-	margin-top: 75px;
-	margin-bottom: 40px;
-	background-color: white;
+	clear: both;
+	padding: 30px 30px 30px 30px;
+	margin: auto;
+	margin-top: 110px;
+	background-color: #ffffff;
 	position: relative;
-	border: 1px solid #888;
-	left: 19%;
+	border: 1px solid #dddddd;
 	z-index: 1;
 }
 
-h2 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 29px;
-	color: teal;	
-}
+
 
 #line {
 	width: 55%x;
 	height: 2px;
-	background-color: #888;
+	background-color: #cccccc;
 }
 
 #profilePic {
@@ -109,152 +124,38 @@ h2 {
 	width: 100%;
 	height: 40px;
 	padding-top: 20px;
-	border-top: 5px solid teal;
-	background-color: gray;
-	color: white;
+	border-top: 5px solid #4aaaa5;
+	background-color: #777777;
+	color: #ffffff;
 	text-align: center;
 	font-size: 12px;
 	z-index: 2; 
 }
 
-#portBox {
-	height: 730px;
-	width: 800px;
-	background-color: none;
-	z-index: 1;
-	margin: 20px;
-}
-
-#portPic1 {
-	position: absolute;
+#portPic {
+	position: relative; */
 	float: left;
-	margin: 20px;
-	top: 110px;
-	left: 10px;
-	clear: right
+	margin: auto;
 }
 
-#banner1 {
+ #banner { 
 	position: relative;
-	background-color: teal;
-	width: 250px;
-	height: 60px;
-	top: 120px;
-	left: -20px;
+	background-color: #4aaaa5;
+	width: 200px;
+	height: 50px;
+	top: -60px;
+	left: 0px;
 	z-index: 4;
-	border: 1px solid black;
-	text-align: center;
+	text-align: center; 
 	padding-top: 15px;
-}
+} */
 
-
-#portPic2 {
-	position: absolute;
-	float: left;
-	margin: 20px;
-	top: 110px;
-	left: 300px;
-	clear: right
-}
-
-#banner2 {
-	position: absolute;
-	background-color: teal;
-	width: 250px;
-	height: 60px;
-	top: 217px;
-	left: 320px;
-	z-index: 4;
-	border: 1px solid black;
-	text-align: center;
-	padding-top: 15px;
-}
-
-#portPic3 {
-	position: absolute;
-	float: left;
-	margin: 20px;
-	top: 325px;
-	left: 10px;
-	clear: right
-}
-
-#banner3 {
-	position: absolute;
-	background-color: teal;
-	width: 250px;
-	height: 60px;
-	top: 432px;
-	left: 30px;
-	z-index: 4;
-	border: 1px solid black;
-	text-align: center;
-	padding-top: 15px;
-}
-
-#portPic4 {
-	position: absolute;
-	float: left;
-	margin: 20px;
-	top: 325px;
-	left: 300px;
-	clear: right
-}
-
-#banner4 {
-	position: absolute;
-	background-color: teal;
-	width: 250px;
-	height: 60px;
-	top: 432px;
-	left: 320px;
-	z-index: 4;
-	border: 1px solid black;
-	text-align: center;
-	padding-top: 15px;
-}
-
-#portPic5 {
-	position: absolute;
-	float: left;
-	margin: 20px;
-	top: 540px;
-	left: 10px;
-	clear: right
-}
-
-#banner5 {
-	position: absolute;
-	background-color: teal;
-	width: 250px;
-	height: 60px;
-	top: 647px;
-	left: 30px;
-	z-index: 4;
-	border: 1px solid black;
-	text-align: center;
-	padding-top: 15px;
-}
-
-
-#banner1:hover {
-	background-color: pink;
+#banner:hover {
+	background-color: #b67db0;
 	color: black;
 }
 
-#banner2:hover {
-	background-color: pink;
-	color: black;
-}
-#banner3:hover {
-	background-color: pink;
-	color: black;
-}
-#banner4:hover {
-	background-color: pink;
-	color: black;
-}
-#banner5:hover {
-	background-color: pink;
-	color: black;
+#imageBox {
+	overflow: auto;
+	clear: both;
 }
