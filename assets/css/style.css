@@ -39,7 +39,8 @@ nav ul li {
 	padding: 5px;
 	position: relative;
 	color: #cccccc;
-	left: 65%;
+	/* left: 1028px; */
+	float: right;
 
 }
 
@@ -49,7 +50,7 @@ nav ul li a {
 }
 
 nav ul li a:visited {
-	color: #b6d760;
+	color: #dddddd;
 }
 
 .headPlate {
@@ -73,7 +74,7 @@ nav ul li a:visited {
 	padding: 24.5px;
 	float: left;
 	position: absolute;
-	left: 20%;
+	/* left: 275px; */
 	text-align: center;
 	z-index: 4;
 }
@@ -81,16 +82,17 @@ nav ul li a:visited {
 }
 
 .wrapper {
-	max-width: 1500px;
+	max-width: 985px;
 	padding: 20px;
 	margin: 0 auto 0 auto;
 }
 
 #about {
-	width: 60%;
+	width: 985px;
 	clear: both;
 	padding: 30px 30px 30px 30px;
 	margin: auto;
+	left: 0px;
 	margin-top: 110px;
 	background-color: #ffffff;
 	position: relative;
@@ -133,9 +135,10 @@ nav ul li a:visited {
 }
 
 #portPic {
-	position: relative; */
+	position: relative; 
 	float: left;
 	margin: auto;
+	width: 33%;
 }
 
  #banner { 
@@ -148,7 +151,7 @@ nav ul li a:visited {
 	z-index: 4;
 	text-align: center; 
 	padding-top: 15px;
-} */
+}
 
 #banner:hover {
 	background-color: #b67db0;
@@ -157,5 +160,9 @@ nav ul li a:visited {
 
 #imageBox {
 	overflow: auto;
-	clear: both;
+}
+
+#res {
+	max-width: 985px;
+	margin: auto;
 }
